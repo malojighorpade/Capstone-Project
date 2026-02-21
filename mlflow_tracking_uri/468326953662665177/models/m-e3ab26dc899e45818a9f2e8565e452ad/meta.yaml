@@ -1,0 +1,10 @@
+artifact_location: file:///E:/MLopes/Capstone-Project/mlflow_tracking_uri/468326953662665177/models/m-e3ab26dc899e45818a9f2e8565e452ad/artifacts
+creation_timestamp: 1771678075143
+experiment_id: '468326953662665177'
+last_updated_timestamp: 1771678120981
+model_id: m-e3ab26dc899e45818a9f2e8565e452ad
+model_type: null
+name: model
+source_run_id: 457747025e6349c9964911aefcfb1f07
+status: 2
+status_message: null

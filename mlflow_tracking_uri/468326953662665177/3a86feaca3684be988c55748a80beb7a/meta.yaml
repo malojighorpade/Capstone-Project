@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/MLopes/Capstone-Project/mlflow_tracking_uri/468326953662665177/3a86feaca3684be988c55748a80beb7a/artifacts
+end_time: 1771678073444
+entry_point_name: ''
+experiment_id: '468326953662665177'
+lifecycle_stage: active
+run_id: 3a86feaca3684be988c55748a80beb7a
+run_name: 'LR with params: {''C'': 1, ''penalty'': ''l1'', ''solver'': ''liblinear''}'
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771678073159
+status: 3
+tags: []
+user_id: malojighorpade
