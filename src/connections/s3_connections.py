@@ -3,6 +3,9 @@ import pandas as pd
 import logging
 from src.logger import logging
 from io import StringIO
+import os
+import dotenv
+dotenv.load_dotenv()
 
 # # Configure logging
 # logging.basicConfig(level=logging.INFO)
@@ -41,8 +44,8 @@ class s3_operations:
 # if __name__ == "__main__":
 #     # Replace these with your actual AWS credentials and S3 details
 #     BUCKET_NAME = "bcapstone-project-mg"
-#     AWS_ACCESS_KEY = "AKIARJ7BTKX3HDQWS7HV"
-#     AWS_SECRET_KEY = "g2okKuCumRvQ7rKJyOAqI4e7ZUhgd2cK+AQnNWRX"
+    # AWS_ACCESS_KEY = os.getenv("AWS_ACCESS_KEY_ID") 
+    # AWS_SECRET_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
 #     FILE_KEY = "data(2).csv"  # Path inside S3 bucket
 
 #     data_ingestion = s3_operations(BUCKET_NAME, AWS_ACCESS_KEY, AWS_SECRET_KEY)
