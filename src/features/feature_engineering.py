@@ -6,6 +6,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 import yaml
 from src.logger import logging
 import pickle
+import dotenv
+dotenv.load_dotenv()
 
 
 def load_params(params_path: str) -> dict:
