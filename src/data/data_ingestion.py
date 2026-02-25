@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 import yaml
 import logging
 from src.logger import logging
-from src.connections import s3_connections
+from src.connections import s3_connection
 
 
 def load_params(params_path: str) -> dict:
@@ -76,7 +76,7 @@ def main():
         # test_size = 0.2
         
         df = load_data(data_url='https://raw.githubusercontent.com/malojighorpade/Capstone-Project/refs/heads/main/notebooks/data.csv')
-        s3 = s3_connections.s3_operations("capstone-project-mg", os.getenv("AWS_ACCESS_KEY_ID"), os.getenv("AWS_SECRET_ACCESS_KEY"))
+        s3 = s3_connection.s3_operations("capstone-project-mg", os.getenv("AWS_ACCESS_KEY_ID"), os.getenv("AWS_SECRET_ACCESS_KEY"))
         # df = s3.fetch_file_from_s3("data (2).csv")
 
 
