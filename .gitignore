@@ -89,5 +89,6 @@ target/
 .mypy_cache/
 cred.txt
 local_s3/
-data/
+# data/
 models/
+.env/
