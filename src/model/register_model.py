@@ -37,9 +37,9 @@ mlflow.set_tracking_uri(f'{dagshub_url}/{repo_owner}/{repo_name}.mlflow')
 
 # Below code block is for local use
 # -------------------------------------------------------------------------------------
-mlflow.set_tracking_uri(os.getenv("mlflow_tracking_uri"))
-dagshub.init(repo_owner=repo_owner, repo_name=repo_name, mlflow=True)
-# -------------------------------------------------------------------------------------
+# mlflow.set_tracking_uri(os.getenv("mlflow_tracking_uri"))
+# dagshub.init(repo_owner=repo_owner, repo_name=repo_name, mlflow=True)
+# # -------------------------------------------------------------------------------------
 
 
 def load_model_info(file_path: str) -> dict:
