@@ -10,8 +10,8 @@ from nltk.corpus import stopwords
 import string
 import re
 import dagshub
-import dotenv
-dotenv.load_dotenv()
+# import dotenv
+# dotenv.load_dotenv()
 
 import warnings
 warnings.simplefilter("ignore", UserWarning)
